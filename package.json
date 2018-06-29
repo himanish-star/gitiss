@@ -4,7 +4,8 @@
   "description": "a command line tool which helps you to file issues on github straight from your terminal",
   "main": "command_file.js",
   "dependencies": {
-    "commander": "^2.15.1"
+    "commander": "^2.15.1",
+    "inquirer": "^6.0.0"
   },
   "devDependencies": {},
   "scripts": {
