@@ -5,8 +5,11 @@
   "main": "command_file.js",
   "dependencies": {
     "commander": "^2.15.1",
-    "inquirer": "^6.0.0"
+    "inquirer": "^6.0.0",
+    "path": "^0.12.7"
   },
+  "preferGlobal": true,
+  "bin": "./command_file.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
