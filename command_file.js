@@ -54,6 +54,8 @@ program
 
     const fs = require('fs');
     fs.writeFileSync(__dirname + '/commit_message_file.txt',
+    'TITLE: \n' +
+    'BODY: \n' +
     '\n\n\n#### GITISS #### INSTRUCTIONS Below:\n\n' +
     '** Press `a` to insert text\n' +
     '** Type `TITLE:` and then enter the title(compulsory)\n' +
@@ -77,12 +79,20 @@ program
       } else {
         if(cmd.origin) {
           const url = await readOriginURL(process.cwd());
+          if(url==0) {
+            console.log('no origin url found');
+            process.exit();
+          }
           await fileIssue(url, process.env.githubToken, {
             title: data2.title,
             body: data2.body
           });
         } else if(cmd.upstream) {
           const url = await readUpstreamURL(process.cwd());
+          if(url==0) {
+            console.log('no upstream url found');
+            process.exit();
+          }
           await fileIssue(url, process.env.githubToken, {
             title: data2.title,
             body: data2.body
