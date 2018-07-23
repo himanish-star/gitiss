@@ -43,7 +43,8 @@ of your `.git` folder which is located in the project directory**
  ```Terminal
  gitiss --help
  ```
- Fig:
+ 
+ **Figure:**
  ____________________________________
  
  ![](https://user-images.githubusercontent.com/30361728/43076400-c1ddeb78-8ea1-11e8-828f-5990f456db80.png)
@@ -59,9 +60,9 @@ of your `.git` folder which is located in the project directory**
  ```Terminal
  gitiss token <your_personal_access_token>
  ```
- Fig:
- ___________________________________
  
+ **Figure:**
+ __________________________________________
  ![](https://user-images.githubusercontent.com/30361728/43077092-0759efba-8ea4-11e8-97f7-6fde246b712a.png)
  __________________________
 3. To file an issue inline in **gitiss**:
@@ -73,13 +74,14 @@ of your `.git` folder which is located in the project directory**
  ```Terminal
  finline -u "your_inline_title" "your_inline_body"
  ```
- Fig:
  
- !()[https://user-images.githubusercontent.com/30361728/43076453-eba22e10-8ea1-11e8-8e23-a31c7d391957.png]
+ **Figure:**
+ ______________________________________
+ ![](https://user-images.githubusercontent.com/30361728/43076453-eba22e10-8ea1-11e8-8e23-a31c7d391957.png)
  ________________________
- Fig:
-
- !()[https://user-images.githubusercontent.com/30361728/43076478-ff506efe-8ea1-11e8-8c35-96200f721138.png]
+ **Figure:**
+ ________________________________________
+ ![](https://user-images.githubusercontent.com/30361728/43076478-ff506efe-8ea1-11e8-8c35-96200f721138.png)
  ____________________________________
 4. To file an issue using the vi/vim editor in **gitiss**:
  - To file an issue in the origin of the repo:
@@ -90,13 +92,14 @@ of your `.git` folder which is located in the project directory**
  ```Terminal
  feditor -u 
  ```
- Fig:
+ 
+ **Figure:**
  _______________________________________
- !()[https://user-images.githubusercontent.com/30361728/43076837-219208aa-8ea3-11e8-91f2-824b111e43b2.png]
+ ![](https://user-images.githubusercontent.com/30361728/43076837-219208aa-8ea3-11e8-91f2-824b111e43b2.png)
  _____________________________________
- Fig:
+ **Figure:**
  _______________________________________________________
- !()[https://user-images.githubusercontent.com/30361728/43076852-353d8fe6-8ea3-11e8-93cb-1b633f229c78.png]
+ ![](https://user-images.githubusercontent.com/30361728/43076852-353d8fe6-8ea3-11e8-93cb-1b633f229c78.png)
  ________________________________
 ## Report a bug or need help
 
